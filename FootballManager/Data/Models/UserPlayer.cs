@@ -16,7 +16,7 @@
         public int PlayerId { get; set; }
 
         [Required]
-        [ForeignKey(nameof(PlayerId))]
+        [ForeignKey(nameof(PlayerId))]  
         public Player Player { get; set; }
     }
 }
